@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#eef2f7;
+}
+
+/* CENTER PAGE */
+.hero{
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+/* BIG BOX */
+.hero-box{
+    width:70%;
+
+    background:white;
+
+    padding:80px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+.hero-box h1{
+    font-size:60px;
+    margin-bottom:30px;
+}
+
+/* TEXT */
+.hero-box p{
+    font-size:26px;
+
+    margin-bottom:40px;
+
+    color:#555;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+
+    padding:18px 30px;
+
+    margin:10px;
+
+    background:#1565c0;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-size:24px;
+}
+
+/* HOVER */
+.btn:hover{
+    background:#0d47a1;
+}
