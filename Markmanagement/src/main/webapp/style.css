@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    background:#edf2f7;
+    font-family:Arial;
+}
+
+.main-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+}
+
+.big-card{
+
+    width:700px;
+
+    background:white;
+
+    padding:60px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+
+    text-align:center;
+
+    color:#1565c0;
+
+    font-size:50px;
+
+    margin-bottom:40px;
+}
+
+.form-group{
+
+    margin-bottom:30px;
+}
+
+label{
+
+    display:block;
+
+    font-size:22px;
+
+    margin-bottom:10px;
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:18px;
+
+    font-size:20px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    box-sizing:border-box;
+}
+
+button{
+
+    width:100%;
+
+    padding:20px;
+
+    font-size:24px;
+
+    background:#1976d2;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+button:hover{
+
+    background:#0d47a1;
+}
